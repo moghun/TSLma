@@ -1,0 +1,44 @@
+<form action= "start.php" method="POST">
+
+    <button class="btn btn-primary", style ="color: black;">BACK</button>
+</form>
+
+<h2>Inserting Matches</h2>
+<style>
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 2vh;
+    }
+
+    .input-margin {
+        margin-right: 1vw;
+    }
+</style>
+<form action="Matches_insert.php" method="POST">
+    <div class="container">
+        Match ID:
+        <input type="text" id="match_id" name="match_id" class="input-margin">
+        Stadium:
+        <input type="text" id="stadium" name="stadium" class="input-margin">
+        Number of Cards:
+        <input type="text" id="num_cards" name="num_cards" class="input-margin">
+        Home Goal Number:
+        <input type="text" id="home_goal" name="home_goal" class="input-margin">
+    </div>
+    <div class="container">
+        Away Goal Number:
+        <input type="text" id="away_goal" name="away_goal" class="input-margin">
+        Opponent ID:
+        <input type="text" id="opponent_id" name="opponent_id" class="input-margin">
+        Match Date:
+        <input type="text" id="match_date" name="match_date" class="input-margin">
+        Result:
+        <input type="text" id="result" name="result" class="input-margin">
+
+        <input type="submit" value="Submit" class="input-margin">
+    </div>
+</form>
+<body  {
+    style="background-image: url(images/yellow_green.jpg);  background-repeat: no-repeat;background-attachment: fixed; background-size: 100% 100%;"
+   }>

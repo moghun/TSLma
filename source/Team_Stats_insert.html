@@ -1,0 +1,42 @@
+<form action= "start.php" method="POST">
+
+    <button class="btn btn-primary", style ="color: black;">BACK</button>
+</form>
+
+<h2>Inserting Team Stats</h2>
+<style>
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 2vh;
+    }
+    .input-margin{
+        margin-right : 1vw;
+    }
+</style>
+<form action="Team_Stats_insert.php" method="POST">
+    <div class="container">
+        Season year:
+        <input type="text" id="s_year" name="s_year" class="input-margin">
+        Team ID:
+        <input type="text" id="team_id" name="team_id" class="input-margin">
+        Points:
+        <input type="text" id="points" name="points" class="input-margin">
+        Goals Scored:
+        <input type="text" id="goals_scored" name="goals_scored" class="input-margin">
+    </div>
+    <div class="container">
+        Goals Conceded:
+        <input type="text" id="goals_conceded" name="goals_conceded" class="input-margin">
+        Win Number:
+        <input type="text" id="win_number" name="win_number" class="input-margin">
+        Lose Number:
+        <input type="text" id="lose_number" name="lose_number" class="input-margin">
+        Draw Number:
+        <input type="text" id="draw_number" name="draw_number" class="input-margin">
+        <input type="submit" value="Submit" class="input-margin">
+    </div>
+</form>
+<body  {
+ style="background-image: url(images/yellow_green.jpg);  background-repeat: no-repeat;background-attachment: fixed; background-size: 100% 100%;"
+}>
