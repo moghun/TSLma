@@ -1,6 +1,6 @@
 # TSLma
 
-TSLMa is basically a user driven database which allows users to keep track of matches, teams and players of the Turkish Super League that have significant implications and lets guests explore data that is provided by users.
+TSLMa is basically a user driven database which allows users to keep track of matches, teams and players of the Turkish Super League that have significant implications and lets guests explore data provided by users.
 
 ![WhatsApp Image 2022-03-07 at 8 19 19 PM](https://user-images.githubusercontent.com/89805772/157085430-7cfb0f50-d1c6-48d2-8188-23fde37bd3bb.jpeg)
 
